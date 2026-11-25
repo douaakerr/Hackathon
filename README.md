@@ -6,13 +6,14 @@ GUARDIAN helps pharmacies and healthcare facilities monitor medicine-storage con
 
 ## Current prototype
 
-The frontend is built with React, JavaScript, Vite, regular CSS, React Router, Recharts, and Lucide icons.
+The frontend uses React, JavaScript, Vite, regular CSS, React Router, Recharts, and Lucide icons.
 
-Dashboard values are simulated for demonstration. No physical sensors or AI service are connected in this stage.
+Dashboard readings are simulated for demonstration. No physical sensors or AI service are connected in this stage.
 
-## Run locally
+## Run the frontend locally
 
 ```bash
+cd app
 pnpm install
 pnpm dev
 ```
@@ -21,15 +22,20 @@ pnpm dev
 
 ```text
 Hackathon/
-├── src/
-│   ├── App.jsx
-│   ├── App.css
-│   ├── index.css
-│   └── main.jsx
-├── index.html
-├── vite.config.js
-├── eslint.config.js
-└── package.json
+├── app/
+│   ├── src/
+│   │   ├── App.jsx
+│   │   ├── App.css
+│   │   ├── index.css
+│   │   └── main.jsx
+│   ├── index.html
+│   ├── vite.config.js
+│   ├── eslint.config.js
+│   └── package.json
+├── server/
+│   └── README.md
+├── .gitignore
+└── README.md
 ```
 
 ## Brand palette
@@ -40,4 +46,4 @@ Hackathon/
 - Mint: `#02C39A`
 - Soft Cream: `#F0F3BD`
 
-AI implementation is intentionally kept separate.
+AI implementation is intentionally left for the project owner.
