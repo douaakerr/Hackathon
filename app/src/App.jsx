@@ -1,7 +1,7 @@
 import { NavLink, Route, Routes } from "react-router-dom";
 import {
   Activity, AlertTriangle, ArrowDownRight, ArrowUpRight, Bell, ChevronDown,
-  CircleHelp, Clock3, Droplets, LayoutDashboard, LifeBuoy, Menu, MoreHorizontal,
+  Clock3, Droplets, LayoutDashboard, LifeBuoy, MoreHorizontal,
   Plus, Refrigerator, Settings, ShieldCheck, Thermometer, TrendingUp, Zap,
 } from "lucide-react";
 import {
